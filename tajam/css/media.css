@@ -7,17 +7,97 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-
+    .slider_container {
+        margin-top: 80px;
+    }
+    .contact_form {
+        text-align: center;
+    }
+    .contact_client-item-left {
+        display: inline-block;
+        float: none;
+    }
+    .contact_client-item-right {
+        display: inline-block;
+        float: none;
+        margin-left: 200px;
+    }
+    .contact_client {
+        text-align: center;
+    }
+    .contact_form > form > input {
+        margin: 0 auto 25px;
+        width: 65%;
+    }
+    .contact_form > form > textarea {
+        margin: 0 auto 25px;
+        width: 65%;
+    }
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-
+    .header {
+        height: auto;
+    }
+    .slider_container {
+        margin-top: 30px;
+    }
+    .fade-carousel .carousel-inner .item {
+        height: 450px;
+    }
+    .fade-carousel .carousel-indicators {
+        bottom: 35px;
+    }
+    .testimonials_text {
+        margin: 0 40px 55px;
+        text-align: justify;
+    }
+    .contact_client-item-right {
+        margin-left: 50px;
+    }
+    .about {
+        text-align: center;
+    }
+    .about_text p {
+        text-align: justify;
+    }
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-
+    .about_text .about_btn {
+        display: block;
+        margin: 50px auto 70px;
+    }
+    .works_top {
+        text-align: center;
+    }
+    .works_top a {
+        display: none;
+    }
+    .testimonials_text {
+        margin: 0 10px 55px;
+    }
+    .testimonials_images img {
+        margin-left: 2px;
+        margin-right: 2px;
+        vertical-align: middle;
+    }
+    .contact_client-item-right {
+        margin-left: 0;
+        display: block;
+    }
+    .expertise_item {
+        margin: 40px 10px;
+    }
+    .toggle-mnu {
+        margin-right: 6px;
+    }
+    .logo_text {
+        font-size: 26px;
+        margin-left: 8px;
+    }
 }
 
 /* Custom, iPhone Retina */
