@@ -1,0 +1,171 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+	
+	background-color: lightgray;
+	
+	background-image: url(../img/education-summit.png);
+}
+
+ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+a:hover, a:active, a:focus {
+	text-decoration: none;
+	color: black;
+}
+
+/*------- TOP --------*/
+
+.logo {
+	max-width: 125px;
+}
+
+.top-head {
+	margin: 10px 0 25px;
+}
+
+.quest-list {
+	background-color: #5e80bf;
+	padding: 10px;
+}
+.quest-list p {
+	text-align: center;
+}
+.quest-list a, .quest-list button {
+	background-color: #ffdf40;
+	border: none;
+	padding: 10px 15px;
+	margin: 3px 0;
+	text-align: center;
+	border-radius: 5px;
+	display: inline-block;
+    width: 100%;
+	color: #404040;
+}
+
+.mini-title {
+	font-weight: bold;
+	margin: 5px 0 15px;
+	text-align: center;
+	color: #fff;
+}
+
+.content {
+	position: relative;
+	text-align: center;
+	min-height: 300px;
+	border: 2px solid #00802b;
+	padding: 15px;
+	background-color: #fff;
+}
+.content a:hover {
+	text-decoration: none;
+	color: black;
+}
+
+.buttoms {
+	position: absolute;
+	bottom: 50px;
+	left: 0;
+	right: 0;
+}
+
+.main-button {
+	background-color: #ffdf40;
+	color: #404040;
+	padding: 10px 15px;
+	margin: 0 5px;
+	text-align: center;
+	border-radius: 5px;
+	display: inline-block;
+	width: 75px;
+	font-family: "OpenSansSemiBold", sans-serif;
+	border: 0.5px solid #404040;
+}
+.main-button:hover {
+	background-color: #d8b41e;
+}
+
+.link-list {
+	margin-bottom: 50px;
+	position: relative;
+}
+.link-list::after {
+	content: "";
+	position: absolute;
+	margin-top: 25px;
+	border-bottom: 2px solid #507199;
+	width: 100%;
+}
+
+.red {
+	text-align: left;
+	color: red;
+}
+.green {
+	text-align: left;
+	color: green;
+}
+.green a {
+	color: olivedrab;
+}
+.green a:hover {
+	color: green;
+}
+
+.links {
+	background-color: #5e80bf;
+	padding: 10px;
+}
+.links a {
+	background-color: #ffdf40;
+	border: none;
+	padding: 10px 15px;
+	margin: 3px 0;
+	text-align: center;
+	border-radius: 5px;
+	display: inline-block;
+    width: 100%;
+	color: #404040;
+}
+.links a:hover {
+	
+}
+
+
+
+
+
+
