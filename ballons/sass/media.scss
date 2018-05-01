@@ -1,0 +1,276 @@
+@import "bourbon";
+
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    .head-search {
+        left: 30px;
+    }
+    .search-focus {
+        left: -420px;
+    }
+    .search-unfocus {
+        left: 30px;
+    }
+    .contacts {
+        .contacts__item {
+            padding: 14px 26px;
+            .contacts__item-box {
+                span:last-child {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+    .subscribe .subscribe__box {
+        .subscribe__box-newsletter {
+            padding-left: 40px;
+            padding-top: 30px;
+            padding-right: 20px;
+            &:after {
+                width: 390px;
+                height: 350px;
+                margin-right: -100px;
+                z-index: -1;
+            }
+            .subscribe__text {
+                margin-left: 0;
+            }
+        }
+    }
+    .instagram__button {
+        text-align: left;
+    }
+    
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .container {
+        width: 95%!important;
+    }
+    .head-mnu {
+        font-size: 13px;
+    }
+	.head-search {
+        right: 185px;
+        .search {
+            padding-right: 0;
+        }
+    }
+    .search-focus {
+        left: 0px;
+        input {
+		    width: 450px;
+	    }
+    }
+    .search-unfocus {
+        right: 185px;
+    }
+    .search-results {
+        width: 450px;
+        right: 0px;
+        left: unset;
+    }
+    .head-cart {
+        button {
+            padding: 10px 10px 10px 12px;
+        }
+    }
+    .head-items {
+        text-align: center;
+    }
+    .head-item {
+        margin-bottom: 15px;
+        display: inline-block;
+    }
+    .logo {
+        display: block;
+        margin-bottom: 0px;
+    }
+    .content-menu {
+        font-size: 15px;
+        ul {
+            padding: 25px 0px 0 0px;
+        }
+    }
+    .content-menu .head-dropdown-content {
+        z-index: 10001;
+        top: 49px;
+    }
+    .head-banner {
+        background-size: cover!important;
+        .head-banner__content {
+            .head-banner__title {
+                font-size: 24px;
+                margin-bottom: 0px;
+            }
+            .head-banner__text {
+                font-size: 16px;
+            }
+        }
+    }
+    .categories .categories-bg .categories__content-item {
+        height: 450px;
+    }
+    .subscribe .subscribe__box {
+        .subscribe__box-newsletter {
+            padding-left: 40px;
+            padding-top: 30px;
+            &:after {
+                background: none;
+            }
+            .subscribe__text {
+                margin-left: 0;
+            }
+        }
+    }
+    .contacts {
+        .contacts__item {
+            margin: 10px 0;
+        }
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	
+	/*Disable Animation on Mobile Devices*/
+    .animated {
+        /*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+    }
+    
+    .head-search {
+        right: 175px;
+    }
+    .search-focus {
+        input {
+		    width: 220px;
+	    }
+    }
+    .search-unfocus {
+        right: 175px;
+    }
+    .search-results {
+        width: 220px;
+    }
+    .container {
+        width: 100%!important;
+    }
+    .head-banners .head-banner {
+        height: 200px;
+    }
+    .categories .categories-bg .categories__content-item {
+        height: 300px;
+        box-shadow: inset 0 220px 500px #fff;
+        .categories__content-descript {
+            font-size: 14px;
+        }
+    }
+    .subscribe .subscribe__box {
+        padding: 92px 25px;
+        .subscribe__box-newsletter {
+            padding-left: 10px;
+            padding-top: 20px;
+            padding-right: 10px;
+            &:after {
+                display: none;
+            }
+            p {
+                display: block;
+            }
+            .subscribe__box-form {
+                button.btn {
+                    width: 125px;
+                    &:after {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+    .instagram .instagram__content a {
+        padding: 12px 13px;
+    }
+    .advantages .advantages__content img {
+        max-width: 100%;
+    }
+    .footer {
+        .footer__logo {
+            display: none;
+        }
+        .footer__contacts {
+            float: right;
+            text-align: center;
+            .footer__whatsapp {
+                font-size: 24px;
+            }
+        }
+        .footer__social {
+            width: 45%;
+            text-align: center;
+            h4 {
+                margin: 0;
+            }
+        }
+        .footer__copy {
+            width: 45%;
+            text-align: center;
+        }
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	/**/
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	/**/
+}
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+	/**/
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+	/**/
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	/**/
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	/**/
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	/**/
+}

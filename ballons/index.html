@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Заголовок</title>
+	<meta name="description" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap.css" />
+	<link rel="stylesheet" href="libs/bxslider/jquery.bxslider.min.css" />
+	<link rel="stylesheet" href="libs/font-awesome-4.2.0/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/media.css" />
+</head>
+<body>
+   
+    <div class="overlay"></div>
+    <header class="header">
+    	
+    	<div class="container">
+    		<div class="row">
+    			
+    			<div class="head-top row-no-padding clearfix">
+    				<div class="col-lg-9 col-md-8">
+    					
+    					<div class="head-mnu">
+    						<ul>
+    							<li class="head-dropdown">
+    								<a href="#">Eng<i class="fa fa-caret-down"></i></a>
+    								<div class="head-dropdown-content">
+    									<a href="#" class="active"><img src="img/united-kingdom.png" alt="Eng">English</a>
+    									<a href="#"><img src="img/united-arab-emirates.png" alt="Arabic">Arabic</a>
+    									<a href="#"><img src="img/russia.png" alt="Russian">Russian</a>
+    								</div>
+    							</li>
+    							<li class="head-dropdown">
+    								<a href="#">US Dollar<i class="fa fa-caret-down"></i></a>
+    								<div class="head-dropdown-content">
+    									<a href="#">Euro</a>
+    									<a href="#">AED</a>
+    									<a href="#" class="active">US Dollar</a>
+    								</div>
+    							</li>
+    							<li class="hidden-md hidden-sm"><a href="#">Login</a></li>
+    							<li class="hidden-md hidden-sm"><a href="#">Register</a></li>
+    							<li class="head-dropdown">
+    								<a href="#">My account<i class="fa fa-caret-down"></i></a>
+    								<div class="head-dropdown-content">
+    									<a href="#"><div class="drop-img-align"><img src="img/register.png" alt="Register"></div>Register</a>
+    									<a href="#"><div class="drop-img-align"><img src="img/login.png" alt="Login"></div>Login</a>
+    									<a href="#"><div class="drop-img-align"><img src="img/my_account.png" alt="My account"></div>My account</a>
+    									<a href="#"><div class="drop-img-align"><img src="img/wish_list.png" alt="Wish list"></div>Wish list<span class="wishlist-number">3</span></a>
+    								</div>
+    							</li>
+    							<li><a href="#">About us</a></li>
+    							<li><a href="#">Delivery</a></li>
+    							<li><a href="#">Contacts</a></li>
+    							<li><a href="#">Instant payment</a></li>
+    						</ul>
+    					</div>
+    					
+    				</div>
+    				<div class="col-lg-3 col-md-4">
+    				
+    					<div class="head-top_right">
+							<div class="head-search">
+								<i class="fa fa-search"></i>
+								<input type="text" placeholder="Search" class="search">
+								<div class="search-results">
+								    <p class="search-top">Результаты поиска</p>
+								    <p>Plain helium balloons</p>
+								    <p>Plain helium</p>
+								    <p>Plain</p>
+								</div>
+							</div>
+
+							<div class="head-cart">
+								<button id="view-cart">
+									<i class="fa fa-shopping-cart"></i>View cart <span class="cart-number">0</span>
+								</button>
+								<div class="cart-content">
+                                    <img src="img/cart-triangle.svg" alt="triangle" class="cart-triangle">
+								    <div class="cart-item">
+								        <img src="img/cart-item1.png" alt="item" class="cart-item-img">
+								        <p>The name of the item that occupies two lines</p>
+								        <img src="img/cart-del.svg" alt="del" class="cart-del">
+								        <div class="cart-price">
+                                            <span class="cart-money">$543.25</span>
+                                            <img src="img/cart-x.svg" alt="x" class="cart-x">
+                                            <span class="cart-count">2</span>
+								        </div>
+								    </div>
+								    <div class="cart-item">
+								        <img src="img/cart-item1.png" alt="item" class="cart-item-img">
+								        <p>The name of the item that occupies two lines</p>
+								        <img src="img/cart-del.svg" alt="del" class="cart-del">
+								        <div class="cart-price">
+                                            <span class="cart-money">$543.25</span>
+                                            <img src="img/cart-x.svg" alt="x" class="cart-x">
+                                            <span class="cart-count">2</span>
+								        </div>
+								    </div>
+								    <div class="cart-item">
+								        <img src="img/cart-item1.png" alt="item" class="cart-item-img">
+								        <p>The name of the item that occupies two lines</p>
+								        <img src="img/cart-del.svg" alt="del" class="cart-del">
+								        <div class="cart-price">
+                                            <span class="cart-money">$543.25</span>
+                                            <img src="img/cart-x.svg" alt="x" class="cart-x">
+                                            <span class="cart-count">2</span>
+								        </div>
+								    </div>
+								    <div class="cart-buy">
+                                        <div class="cart-buy-border">
+                                            <span class="cart-total">Total: <span class="total-price">$1 258</span></span>
+                                            <a href="#" class="checkout"><img src="img/cart-buy.svg" alt="buy">Checkout</a>
+								        </div>
+								    </div>
+								</div>
+							</div>
+    					</div>
+    					
+    				</div>
+    			</div>
+    			
+    			<div class="head-items clearfix">
+    				<div class="col-md-3 col-sm-6 col-xs-6">
+    					<a href="#" class="logo">
+    						<img src="img/logo.png" alt="Bemyballoon">
+    					</a>
+    				</div>
+    				<div class="col-md-3 col-sm-6 col-xs-6">
+    					<div class="head-item">
+    						<img src="img/phone-item.png" alt="phone">
+    						<span>050-359-9640</span>
+    						<p>toll-free right now</p>
+    					</div>
+    				</div>
+    				<div class="col-md-3 col-sm-6 col-xs-6">
+    					<div class="head-item">
+    						<img src="img/massage-item.png" alt="phone">
+    						<span>800-999-9999</span>
+    						<p>Order by Whatsapp</p>
+    					</div>
+    				</div>
+					<div class="col-md-3 col-sm-6 col-xs-6">
+    					<div class="head-item">
+    						<img src="img/delivery-item.png" alt="phone">
+    						<span>Delivery 24x7</span>
+    						<p>Delivery the same day</p>
+    					</div>
+    				</div>
+    			</div>
+    			
+    			<div class="col-md-12">
+    				<div class="content-menu">
+    					<ul>
+    						<li><a href="#" class="active">Home</a></li>
+    						<li class="head-dropdown">
+    							<a href="#">Balloons<i class="fa fa-caret-down"></i></a>
+    							<div class="head-dropdown-content">
+									<a href="#">Helium latex ballon</a>
+									<a href="#">Hearts and stats</a>
+									<a href="#">
+                                        Helium foil balloon
+<!--
+									    <i class="fa fa-caret-right"></i>
+									    <div class="head-dropdown-content_2">
+									        <a href="#">Helium latex ballon</a>
+									        <a href="#">Hearts and stats</a>
+									    </div>
+-->
+								    </a>
+									<a href="#">Helium bouquets</a>
+									<a href="#">Helium large balloon</a>
+									<a href="#">Helium number and letter</a>
+									<a href="#">Personalized balloon</a>
+								</div>
+    						</li>
+    						<li class="head-dropdown">
+    							<a href="#">Event decoration<i class="fa fa-caret-down"></i></a>
+    							<div class="head-dropdown-content">
+									<a href="#">Balloon 1</a>
+									<a href="#">Balloon 2</a>
+									<a href="#">Balloon 3</a>
+									<a href="#">Balloon 4</a>
+								</div>
+    						</li>
+    						<li class="head-dropdown">
+    							<a href="#">Party supplies<i class="fa fa-caret-down"></i></a>
+    							<div class="head-dropdown-content">
+									<a href="#">Balloon 1</a>
+									<a href="#">Balloon 2</a>
+									<a href="#">Balloon 3</a>
+									<a href="#">Balloon 4</a>
+								</div>
+    						</li>
+    						<li class="head-dropdown">
+    							<a href="#">Corporate<i class="fa fa-caret-down"></i></a>
+    							<div class="head-dropdown-content">
+									<a href="#">Balloon 1</a>
+									<a href="#">Balloon 2</a>
+									<a href="#">Balloon 3</a>
+									<a href="#">Balloon 4</a>
+								</div>
+    						</li>
+    						<li class="head-dropdown">
+    							<a href="#">Ocassion<i class="fa fa-caret-down"></i></a>
+    							<div class="head-dropdown-content">
+									<a href="#">Balloon 1</a>
+									<a href="#">Balloon 2</a>
+									<a href="#">Balloon 3</a>
+									<a href="#">Balloon 4</a>
+								</div>
+    						</li>
+    						<li class="head-dropdown">
+    							<a href="#">Gift ideas<i class="fa fa-caret-down"></i></a>
+    							<div class="head-dropdown-content">
+									<a href="#">Balloon 1</a>
+									<a href="#">Balloon 2</a>
+									<a href="#">Balloon 3</a>
+									<a href="#">Balloon 4</a>
+								</div>
+    						</li>
+    					</ul>
+    				</div>
+    			</div>
+    			
+    			<div class="col-md-12">
+					<div class="head-carousel">
+						<div><img src="img/slide1.jpg" alt=""></div>
+						<div><img src="img/slide2.jpg" alt=""></div>
+						<div><img src="img/slide3.jpg" alt=""></div>
+					</div>
+    			</div>
+    			
+    		</div>
+    	</div>
+    	
+    	<div class="head-banners">
+    	    <div class="container">
+    	        <div class="row">
+    	            <div class="col-md-6 col-sm-6 col-xs-12">
+    	                
+    	                <a href="#">
+    	                    <div class="head-banner" style="background: #fff url('images/content/banner_1.png') no-repeat 50% 50%;">
+    	                        <div class="head-banner__content">
+    	                            <span class="head-banner__title">Event Decoration</span>
+    	                            <p class="head-banner__text">Our focus is on creating custom themed...</p>
+    	                        </div>
+    	                    </div>
+    	                </a>
+    	                
+    	            </div>
+    	            <div class="col-md-6 col-sm-6 col-xs-12">
+    	                
+    	                <a href="#">
+    	                    <div class="head-banner" style="background: #fff url('images/content/banner_2.png') no-repeat 50% 50%;">
+    	                        <div class="head-banner__content">
+    	                            <span class="head-banner__title">Wholesale Balloons</span>
+    	                            <p class="head-banner__text">Only the best brands, no minimum order!</p>
+    	                        </div>
+    	                    </div>
+    	                </a>
+    	                
+    	            </div>
+    	        </div>
+    	    </div>
+    	</div>
+    	
+    </header>
+    
+    <section class="ocassions">
+       
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-md-12">
+                    
+                    <div class="section-title ocassions-title">
+                        <h2>Ocassions</h2>
+                        <p>Always near you</p>
+                    </div>
+                    
+                </div>
+                
+                <div class="ocassions__content clearfix">
+                    
+                    <div class="col-md-3 col-sm-4 col-xs-6">
+                        <a href="#">
+                            <div class="ocassions-item ocassions-item--1">
+                                <div class="ocassions__content-icon">
+                                    <img class="svg" src="./images/icons/ic_ocassions_baby.svg" alt="">
+                                </div>
+                                <div class="ocassions__content-name">New baby</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-xs-6">
+                        <a href="#">
+                            <div class="ocassions-item ocassions-item--2">
+                                <div class="ocassions__content-icon">
+                                    <img class="svg" src="./images/icons/ic_ocassions_photosession.svg" alt="">
+                                </div>
+                                <div class="ocassions__content-name">Photosession</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-xs-6">
+                        <a href="#">
+                            <div class="ocassions-item ocassions-item--3">
+                                <div class="ocassions__content-icon">
+                                    <img class="svg" src="./images/icons/ic_ocassions_happy.svg" alt="">
+                                </div>
+                                <div class="ocassions__content-name">Happy birthday</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-xs-6">
+                        <a href="#">
+                            <div class="ocassions-item ocassions-item--4">
+                                <div class="ocassions__content-icon">
+                                    <img class="svg" src="./images/icons/ic_ocassions_wedding.svg" alt="">
+                                </div>
+                                <div class="ocassions__content-name">Wedding</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-xs-6">
+                        <a href="#">
+                            <div class="ocassions-item ocassions-item--5">
+                                <div class="ocassions__content-icon">
+                                    <img class="svg" src="./images/icons/ic_ocassions_baby-shower.svg" alt="">
+                                </div>
+                                <div class="ocassions__content-name">Baby shower</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-xs-6">
+                        <a href="#">
+                            <div class="ocassions-item ocassions-item--6">
+                                <div class="ocassions__content-icon">
+                                    <img class="svg" src="./images/icons/ic_ocassions_years.svg" alt="">
+                                </div>
+                                <div class="ocassions__content-name">New year</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-xs-6">
+                        <a href="#">
+                            <div class="ocassions-item ocassions-item--7">
+                                <div class="ocassions__content-icon">
+                                    <img class="svg" src="./images/icons/ic_ocassions_halloween.svg" alt="">
+                                </div>
+                                <div class="ocassions__content-name">Halloween</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-xs-6">
+                        <a href="#">
+                            <div class="ocassions-item ocassions-item--8">
+                                <div class="ocassions__content-icon">
+                                    <img class="svg" src="./images/icons/ic_ocassions_national.svg" alt="">
+                                </div>
+                                <div class="ocassions__content-name">National day</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-xs-6">
+                        <a href="#">
+                            <div class="ocassions-item ocassions-item--9">
+                                <div class="ocassions__content-icon">
+                                    <img class="svg" src="./images/icons/ic_airport.svg" alt="">
+                                </div>
+                                <div class="ocassions__content-name">Meeting at airport</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-xs-6">
+                        <a href="#">
+                            <div class="ocassions-item ocassions-item--10">
+                                <div class="ocassions__content-icon">
+                                    <img class="svg" src="./images/icons/ic_flag.svg" alt="">
+                                </div>
+                                <div class="ocassions__content-name">Flag day</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-xs-6">
+                        <a href="#">
+                            <div class="ocassions-item ocassions-item--11">
+                                <div class="ocassions__content-icon">
+                                    <img class="svg" src="./images/icons/ic_henparty.svg" alt="">
+                                </div>
+                                <div class="ocassions__content-name">Henparty day</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-xs-6">
+                        <a href="#">
+                            <div class="ocassions-item ocassions-item--12">
+                                <div class="ocassions__content-icon">
+                                    <img class="svg" src="./images/icons/ic_march.svg" alt="">
+                                </div>
+                                <div class="ocassions__content-name">8 March</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-xs-6">
+                        <a href="#">
+                            <div class="ocassions-item ocassions-item--13">
+                                <div class="ocassions__content-icon">
+                                    <img class="svg" src="./images/icons/ic_mothersday.svg" alt="">
+                                </div>
+                                <div class="ocassions__content-name">Mother’s day</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-xs-6">
+                        <a href="#">
+                            <div class="ocassions-item ocassions-item--14">
+                                <div class="ocassions__content-icon">
+                                    <img class="svg" src="./images/icons/ic_surprise.svg" alt="">
+                                </div>
+                                <div class="ocassions__content-name">Surprise in the hotel</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-xs-6">
+                        <a href="#">
+                            <div class="ocassions-item ocassions-item--15">
+                                <div class="ocassions__content-icon">
+                                    <img class="svg" src="./images/icons/ic_valentinesday.svg" alt="">
+                                </div>
+                                <div class="ocassions__content-name">Valentine’s day</div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+                
+                <div class="col-md-12">
+                    
+                    <div class="ocassions__bottom">
+                        <div class="ocassions__bottom-content">
+                            <a href="#" class="ocassions__bottom-all">See all ocassions <span>7 more</span></a>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+    </section>
+    
+    <section class="categories">
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-md-12">
+                    
+                    <div class="section-title categories-title">
+                        <h2>Categories</h2>
+                        <p>Choose the best</p>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="categories-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="categories__content clearfix">
+                       
+                        <div class="col-md-4 col-sm-6">
+                            <a href="#">
+                                <div class="categories__content-item" style="background: url('./images/content/categori-item_1.jpg') no-repeat bottom center;">
+                                    <div class="categories__content-element">42 items</div>
+                                    <div class="categories__content-title">Helium latex balloons</div>
+                                    <div class="categories__content-descript">Latex balloons - suitable for both holiday decoration, and as a gift.</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <a href="#">
+                                <div class="categories__content-item" style="background: url('./images/content/categori-item_2.jpg') no-repeat bottom center;">
+                                    <div class="categories__content-element">249 items</div>
+                                    <div class="categories__content-title">Helium foil balloons</div>
+                                    <div class="categories__content-descript">It’s an ideal surprise birthday gift and addition to your party decor.</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <a href="#">
+                                <div class="categories__content-item" style="background: url('./images/content/categori-item_3.jpg') no-repeat bottom center;">
+                                    <div class="categories__content-element">22 items</div>
+                                    <div class="categories__content-title">Helium bouquets</div>
+                                    <div class="categories__content-descript">A beautiful decoration, which will become a bright accent at any event.</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <a href="#">
+                                <div class="categories__content-item" style="background: url('./images/content/categori-item_4.jpg') no-repeat bottom center;">
+                                    <div class="categories__content-element">22 items</div>
+                                    <div class="categories__content-title">Helium large balloons</div>
+                                    <div class="categories__content-descript">Giant balloons is a stylish decoration of any celebration or photo shoot</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <a href="#">
+                                <div class="categories__content-item" style="background: url('./images/content/categori-item_5.jpg') no-repeat bottom center;">
+                                    <div class="categories__content-element">249 items</div>
+                                    <div class="categories__content-title">Helium numbers & letters</div>
+                                    <div class="categories__content-descript">Large and bright helium numbers and letters will brighten your holiday!</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <a href="#">
+                                <div class="categories__content-item" style="background: url('./images/content/categori-item_6.jpg') no-repeat bottom center;">
+                                    <div class="categories__content-element">42 items</div>
+                                    <div class="categories__content-title">Helium shapes</div>
+                                    <div class="categories__content-descript">A wonderful decor that is suitable for all iconic events in the life.</div>
+                                </div>
+                            </a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    
+    <section class="subscribe">
+        <div class="container">
+            <div class="row padding-row">
+                
+                <div class="subscribe__box clearfix">
+                    <div class="subscribe__box-newsletter">
+                        <div class="col-md-8">
+                            <h2>Newsletter</h2>
+                            <p class="subscribe__text">Receive our emails and be the first to know about exclusive offers, promotions, and more!</p>
+                            <div class="subscribe__box-form input-group">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text subscribe__ico"></div>
+                                </div>
+                                <input type="text" class="form-control" placeholder="Enter your mail">
+                                <div class="input-group-append">
+                                    <button class="btn subscribe__btn">Subscribe</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+    <section class="contacts">
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-md-4 contacts__grid">
+                    <div class="contacts__item contacts__item-red">
+                        <div class="contacts__item-icon">
+                            <img class="svg" src="./images/icons/ic_address.svg" alt="">
+                        </div>
+                        <div class="contacts__item-box">
+                            <span>Address</span><span>123 Flower Street</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 contacts__grid">
+                    <div class="contacts__item contacts__item-yellow">
+                        <div class="contacts__item-icon">
+                            <img class="svg" src="./images/icons/ic_our_email.svg" alt="">
+                        </div>
+                        <div class="contacts__item-box">
+                            <span>Our Email</span><span>info@bemyballoon.com</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 cotacts__grid">
+                    <div class="contacts__item contacts__item-green">
+                        <div class="contacts__item-icon">
+                            <img class="svg" src="./images/icons/ic_follow.svg" alt="">
+                        </div>
+                        <div class="contacts__item-box">
+                            <span>Follow Us</span><span>#BeMyBalloon</span>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+    <section class="instagram">
+        <div class="container">
+            <div class="row">
+                <div class="section-title instagram__head">
+                    <h2>We are in Instagram</h2>
+                    <p>Stay in touch with us always</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="instagram__list">
+                    <div class="col-md-3 col-sm-4 col-xs-6">
+                        <div class="instagram__list-item">
+                            <a href="#"><img class="img-100" src="./images/content/instagram_1.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-xs-6">
+                        <div class="instagram__list-item">
+                            <a href="#"><img class="img-100" src="./images/content/instagram_2.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-xs-6">
+                        <div class="instagram__list-item">
+                            <a href="#"><img class="img-100" src="./images/content/instagram_3.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-xs-6">
+                        <div class="instagram__list-item">
+                            <a href="#"><img class="img-100" src="./images/content/instagram_4.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-xs-6">
+                        <div class="instagram__list-item">
+                            <a href="#"><img class="img-100" src="./images/content/instagram_5.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-xs-6">
+                        <div class="instagram__list-item">
+                            <a href="#"><img class="img-100" src="./images/content/instagram_6.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-xs-6">
+                        <div class="instagram__list-item">
+                            <a href="#"><img class="img-100" src="./images/content/instagram_7.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-xs-6">
+                        <div class="instagram__list-item">
+                            <a href="#"><img class="img-100" src="./images/content/instagram_8.jpg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="instagram__content">
+                    <div class="col-md-4 col-sm-4 hidden-xs">
+                        <div class="instagram__content-left">
+                            Subscribers: <span>54 512</span>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-5 col-xs-9">
+                        <div class="instagram__button">
+                            <a href="#">Subscribe on Instagram</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-3 col-xs-3">
+                        <div class="instagram__content-right">
+                            @Bemyballoon
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="advantages">
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-md-12">
+                    <div class="section-title advantages__head">
+                        <h2>Our advantages</h2>
+                        <p>We are the first among the best</p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="row advantages__content">
+               
+                <div class="col-md-7">
+                    <h3>Lorem ipsum dolor sit amet</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                </div>
+                <div class="col-md-5">
+                    <img src="./images/content/lorem-ipson-home.jpg" alt="">
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-md-3 col-sm-3 col-xs-12">
+                     <div class="footer__logo">
+                         <a href="#"><img src="./images/icons/logo.svg" alt=""></a>
+                     </div>
+                     <div class="footer__contacts">
+                         <h4>Connect with us</h4>
+                         <div class="footer__whatsapp">800-999-9999<span>Order by Whatsapp</span></div>
+                         <div class="footer__link"> <a href="http://">Ask a Question </a><a href="http://">Help</a></div>
+                     </div>
+                     <div class="footer__social">
+                         <h4>Connect social</h4>
+                         <ul>
+                             <li><a href=""><img class="svg" src="./images/icons/ic_fb_link.svg" alt=""></a></li>
+                             <li><a href=""><img class="svg" src="./images/icons/ic_insta_link.svg" alt=""></a></li>
+                             <li><a href=""><img class="svg" src="./images/icons/ic_vk_link.svg" alt=""></a></li>
+                             <li><a href=""><img class="svg" src="./images/icons/ic_youtube_link.svg" alt=""></a></li>
+                             <li><a href=""><img class="svg" src="./images/icons/ic_twitter_link.svg" alt=""></a></li>
+                         </ul>
+                     </div>
+                     <div class="footer__copy">© 2017 Bemyballons</div>
+                </div>
+                <div class="col-md-3 col-sm-3 hidden-xs">
+                    <div class="footer__nav">
+                        <h3>Products</h3>
+                        <ul>
+                            <li><a href="">Best Sellers</a></li>
+                            <li><a href="">What's New?</a></li>
+                            <li><a href="">Flowers</a></li>
+                            <li><a href="">All Roses</a></li>
+                            <li><a href="">Plants</a></li>
+                            <li><a href="">Jewelry Boutique</a></li>
+                            <li><a href="">Gifts</a></li>
+                            <li><a href="">Gift Baskets</a></li>
+                            <li><a href="">Sweets & Chocolates</a></li>
+                            <li><a href="">Same Day Delivery</a></li>
+                            <li><a href="">Farm Fresh Flowers</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 hidden-xs">
+                    <div class="footer__nav">
+                        <h3>Occasion</h3>
+                        <ul>
+                            <li><a href="">Anniversary</a></li>
+                            <li><a href="">Congratulations</a></li>
+                            <li><a href="">Birthday</a></li>
+                            <li><a href="">Bosses Week</a></li>
+                            <li><a href="">Corporate Gifting</a></li>
+                            <li><a href="">Just Because</a></li>
+                            <li><a href="">Get Well</a></li>
+                            <li><a href="">Fall Collection</a></li>
+                            <li><a href="">Halloween</a></li>
+                            <li><a href="">Wedding Collection</a></li>
+                            <li><a href="">I'm Sorry</a></li>
+                            <li><a href="">Sweetest Day</a></li>
+                            <li><a href="">Inspirational</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 hidden-xs">
+                    <div class="footer__nav">
+                        <h3>Gift Ideas</h3>
+                        <ul>
+                            <li><a href="">Best Sellers</a></li>
+                            <li><a href="">Chocolates & Sweets</a></li>
+                            <li><a href="">Gourmet Gift Baskets</a></li>
+                            <li><a href="">Godiva</a></li>
+                            <li><a href="">Starbucks</a></li>
+                            <li><a href="">Fresh Fruit</a></li>
+                            <li><a href="">Balloons & Bears</a></li>
+                            <li><a href="">Spa & Fragrances</a></li>
+                            <li><a href="">For Him</a></li>
+                            <li><a href="">Wine & Champagne</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+	<script src="libs/bootstrap/bootstrap.js"></script>
+	<script src="libs/bxslider/jquery.bxslider.js"></script>
+	<script src="js/common.js"></script>
+	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>
