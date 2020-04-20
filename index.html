@@ -16,67 +16,120 @@
 	<link rel="stylesheet" href="libs/bootstrap/bootstrap.css" />
 	<link rel="stylesheet" href="libs/font-awesome-4.2.0/css/font-awesome.min.css" />
 	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
-	<link rel="stylesheet" href="libs/owl-carousel/owl.carousel.css" />
 	<link rel="stylesheet" href="libs/countdown/jquery.countdown.css" />
+	<link rel="stylesheet" type="text/css" href="libs/slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="libs/slick/slick-theme.css"/>
 	<link rel="stylesheet" href="css/fonts.css" />
 	<link rel="stylesheet" href="css/main.css" />
 	<link rel="stylesheet" href="css/media.css" />
 </head>
 <body>
 
-    <header class="header">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="header_top">
-                        <h1>ПОРТФОЛИО</h1>
-                        <p>Email: valikfuri@gmail.com</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-    
-    <section class="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <h2 class="my_works">МОИ РАБОТЫ</h2>
-                    <hr class="portfolio_line">
-                </div>
-            </div>
-            <div class="row">
-              	<div class="col-md-4">
-               		<div class="port_item">
+	<header class="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="header_top">
+						<h1>ПОРТФОЛИО</h1>
+						<p>Email: valikfuri@gmail.com</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section class="portfolio">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<h2 class="my_works">МОИ РАБОТЫ</h2>
+					<hr class="portfolio_line">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="port_item">
+						<a href="https://backstage.ua/" class="portfolio_link">
+							<img src="img/6.png" alt="" class="img_responsive">
+						</a>
+						<div class="item-text">
+							<a href="https://backstage.ua/">backstage.ua</a>
+							<p>Сайт салонов красоты в киеве.<br>Сделан весь front-end + адаптация.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="port_item">
+						<a href="https://www.behance.net/gallery/75569333/total" class="portfolio_link">
+							<img src="img/7.png" alt="" class="img_responsive">
+						</a>
+						<div class="item-text">
+							<a href="https://www.behance.net/gallery/75569333/total">tla.portal</a>
+							<p>Новосной сайт Total Ukraine. (Сайт с закрытой регистрацией, просто так не зайт, ссылка на вид главной страницы)<br>Сделан весь front-end + адаптация.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-12">
+					<div class="port_item">
+						<div class="item_slick">
+							<img src="img/t1.png" alt="">
+							<img src="img/t2.png" alt="">
+							<img src="img/t3.png" alt="">
+							<img src="img/t4.png" alt="">
+							<img src="img/t5.png" alt="">
+							<img src="img/t6.png" alt="">
+							<img src="img/t7.png" alt="">
+						</div>
+						<div class="item-text">
+							<p>Веб-приложение для тестов с админкой<br>Сделано на php фреймворке Laravel + postgresql</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6">
+					<div class="port_item">
 						<a href="https://ashiirg.github.io/ballons" class="portfolio_link">
 							<img src="img/4.png" alt="" class="img_responsive">
 						</a>
-                    </div>
-                </div>
-               	<div class="col-md-4">
-               		<div class="port_item">
+						<div class="item-text">
+							<p>Практика верстки</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="port_item">
 						<a href="https://ashiirg.github.io/stroy" class="portfolio_link">
 							<img src="img/3.png" alt="" class="img_responsive">
 						</a>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                	<div class="port_item">
+						<div class="item-text">
+							<p>Практика верстки</p>
+						</div>
+					</div>
+				</div>
+				<!-- <div class="col-md-6">
+					<div class="port_item">
 						<a href="https://ashiirg.github.io/unique" class="portfolio_link">
 							<img src="img/2.png" alt="" class="img_responsive">
 						</a>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                	<div class="port_item">
+						<div class="item-text">
+							<p>Практика верстки</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="port_item">
 						<a href="https://ashiirg.github.io/tajam" class="portfolio_link">
 							<img src="img/1.png" alt="" class="img_responsive">
 						</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+						<div class="item-text">
+							<p>Практика верстки</p>
+						</div>
+					</div>
+				</div> -->
+			</div>
+		</div>
+	</section>
 
 
 
@@ -92,7 +145,7 @@
 	<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
 	<script src="libs/waypoints/waypoints-1.6.2.min.js"></script>
 	<script src="libs/scrollto/jquery.scrollTo.min.js"></script>
-	<script src="libs/owl-carousel/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="libs/slick/slick.js"></script>
 	<script src="libs/countdown/jquery.plugin.js"></script>
 	<script src="libs/countdown/jquery.countdown.min.js"></script>
 	<script src="libs/countdown/jquery.countdown-ru.js"></script>

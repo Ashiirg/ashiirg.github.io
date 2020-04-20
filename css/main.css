@@ -17,19 +17,19 @@
 
 body input:focus:required:invalid,
 body textarea:focus:required:invalid {
-	
+
 }
 body input:required:valid,
 body textarea:required:valid {
-	
+
 }
 body {
 	font-family: "RobotoRegular", sans-serif;
 	font-size: 16px;
-    
+
     margin: 0;
     padding: 0;
-	
+
 	background-color: lightgray;
 }
 
@@ -82,15 +82,15 @@ body {
 }
 
 .portfolio_link {
-    display: block;
-    position: relative;
-    margin: 0 auto;
-    max-width: 400px;
+  display: block;
+  position: relative;
+  /* margin: 0 auto;
+  max-width: 400px; */
 }
 
 .img_responsive {
-    max-width: 100%;
-    height: 250px;
+  max-width: 100%;
+  height: 250px;
 	width: 100%;
 }
 
@@ -98,12 +98,24 @@ body {
 	margin: 15px 0;
 }
 
+.item-text {
+	height: 100px;
+	background-color: #fff;
+	border: 1px solid #b4b2b2;
+	padding: 5px;
+}
 
-
-
-
-
-
-
-
-
+.slick-prev:before, .slick-next:before {
+	font-size: 30px;
+	color: #c60d0d;
+}
+.slick-prev {
+    left: -35px;
+}
+.slick-list {
+	height: 450px;
+}
+.item_slick img {
+	object-fit: contain;
+	height: 450px;
+}
