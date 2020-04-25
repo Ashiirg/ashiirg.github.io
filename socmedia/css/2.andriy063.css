@@ -1,0 +1,66 @@
+a { color: red; }
+
+.elements-table tbody td{
+  border:1px solid #d9d9d9;
+  background:url(./image/element_bg_red.jpg);
+  background-size:0 0
+}
+/* @font-face {
+  font-family:"SFUI-Bold";
+  src:url(/wp-content/themes/__socmedia/css/fonts/SFUIDisplay-Bold.woff)
+} */
+
+/* @font-face{font-family:"SFUI-Regular";src:url(/wp-content/themes/__socmedia/css/fonts/SFUIDisplay-Regular.woff)} */
+
+/* @font-face{font-family:"SFUI-Thin";src:url(/wp-content/themes/__socmedia/css/fonts/SFUIDisplay-Thin.woff)} */
+
+body {
+  overflow-y: hidden;
+}
+
+.left-menu .logo img {
+  width: 35px;
+}
+
+.mission .mission-content .mission-book .mission-macbook {
+  width: 660px;
+}
+
+.cases-content .total img {
+    width: 340px;
+    top: 10px;
+    left: 50px;
+}
+.cases-content .backstage img {
+    width: 450px;
+    top: 26.5px;
+    left: 85px;
+}
+.cases-content .acana img {
+    width: 460px;
+    top: 115px;
+    left: 72px;
+}
+
+.news-item__triple:nth-child(3n+2) {
+    margin: 30px 26px 0;
+}
+.about-top:before{
+  content: "";
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  background-image: url(./image/about-circle.png);
+  background-repeat: no-repeat;
+  background-size: 75%;
+  right: 5%;
+  top: 20%;
+  -webkit-animation-name:bg_rotate;
+  animation-name:bg_rotate;
+  -webkit-animation-duration:80s;
+  animation-duration:80s;
+  -webkit-animation-iteration-count:infinite;
+  animation-iteration-count:infinite;
+  -webkit-animation-timing-function:linear;
+  animation-timing-function:linear
+}
