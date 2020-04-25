@@ -64,3 +64,9 @@ body {
   -webkit-animation-timing-function:linear;
   animation-timing-function:linear
 }
+
+.span-logo {
+  display: block;
+  background-color: #fff;
+  font-size: 20px;
+}
